@@ -35,7 +35,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 21/2/9 Hong Lac Tan Binh Dist Ho Chi Minh City, Vietnam
+  - line: 21/2/9 Hong Lac Tan Binh Dist Ho Chi Minh City Vietnam
 # Build settings
 markdown: kramdown
 permalink: pretty
