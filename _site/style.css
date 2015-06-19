@@ -269,20 +269,13 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-header {
+header .intro-text {
     text-align: center;
     color: #fff;
-    background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
-    background-position: center center;
-    background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
-
-header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
 }
@@ -326,6 +319,29 @@ header .intro-text .intro-heading {
         font-weight: 700;
         line-height: 75px;
     }
+}
+header .video-background-container  {
+    top:0%;
+    left:0%;
+    width:auto;
+    overflow: hidden;
+}
+
+.video-background {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: auto;
+  z-index: -900;
+  overflow: hidden;
+}
+
+
+video {
+    z-index:0;
+}
+video.fillWidth {
+    width: 100%;
 }
 
 section {
