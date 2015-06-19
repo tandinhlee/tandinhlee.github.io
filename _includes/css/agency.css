@@ -279,6 +279,7 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
+    color: #{{ site.color.primary }};
 }
 
 header .intro-text .intro-heading {
@@ -288,6 +289,7 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+    color: #{{ site.color.primary }};
 }
 
 @media(min-width:768px) {
@@ -319,11 +321,6 @@ header .video-background-container  {
     width:auto;
     overflow: hidden;
 }
-.videoOverlay {
-    width: auto;
-    z-index: -999;
-    background-color: #222;
-}
 
 .video-background {
   position: absolute;
@@ -337,7 +334,6 @@ header .video-background-container  {
 
 video {
     z-index:0;
-    width: 100%;
 }
 video.fillWidth {
     width: 100%;
