@@ -326,6 +326,11 @@ header .video-background-container  {
     width:auto;
     overflow: hidden;
 }
+.videoOverlay {
+    width: auto;
+    z-index: -999;
+    background-color: #222;
+}
 
 .video-background {
   position: absolute;
@@ -334,12 +339,12 @@ header .video-background-container  {
   width: auto;
   z-index: -900;
   overflow: hidden;
-  background-color: #222;
 }
 
 
 video {
     z-index:0;
+    width: 100%;
 }
 video.fillWidth {
     width: 100%;
