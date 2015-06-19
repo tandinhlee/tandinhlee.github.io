@@ -327,6 +327,7 @@ header .video-background-container  {
   width: auto;
   z-index: -900;
   overflow: hidden;
+  background-color: #222;
 }
 
 
