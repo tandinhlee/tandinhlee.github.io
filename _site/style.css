@@ -20,6 +20,9 @@ body {
 .text-muted {
     color: #777;
 }
+.text-clear {
+    color: #fff;
+}
 
 .text-primary {
     color: #fed136;
