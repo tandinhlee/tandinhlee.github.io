@@ -290,6 +290,7 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
+    color: #{{ site.color.primary }};
 }
 
 header .intro-text .intro-heading {
@@ -299,6 +300,7 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+    color: #{{ site.color.primary }};
 }
 
 @media(min-width:768px) {
