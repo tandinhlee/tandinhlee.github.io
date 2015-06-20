@@ -272,13 +272,21 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-header .intro-text {
+header {
     text-align: center;
     color: #fff;
+    background-attachment: scroll;
+    background-image: url(../img/header-bg.jpg);
+    background-position: center center;
+    background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+
+header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
 }
@@ -289,7 +297,6 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
-    color: #fed136;
 }
 
 header .intro-text .intro-heading {
@@ -299,7 +306,6 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
-    color: #fed136;
 }
 
 @media(min-width:768px) {
@@ -325,13 +331,13 @@ header .intro-text .intro-heading {
         line-height: 75px;
     }
 }
-header .video-background-container  {
+/*header .video-background-container  {
     top:0%;
     left:0%;
     width:auto;
     overflow: hidden;
-}
-
+}*/
+/*
 .video-background {
   position: absolute;
   top: 0px;
@@ -344,10 +350,10 @@ header .video-background-container  {
 
 video {
     z-index:0;
-}
-video.fillWidth {
+}*/
+/*video.fillWidth {
     width: 100%;
-}
+}*/
 
 section {
     padding: 100px 0;
